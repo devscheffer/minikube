@@ -20,7 +20,7 @@ The podman driver is an alternative container runtime to the [Docker]({{< ref "/
 - On Linux, Podman requires passwordless running of sudo. If you run into an error about sudo, do the following:
 
 ```shell
-$ sudo visudo
+sudo visudo
 ```
 Then append the following to the section *at the very bottom* of the file where `username` is your user account.
 
